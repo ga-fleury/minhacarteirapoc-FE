@@ -10,7 +10,7 @@
             }
     });
 		apiResponse = await response.json();
-		console.log(apiResponse);
+		console.log(apiResponse.message);
 	}
 </script>
 
@@ -20,5 +20,5 @@
 		Click Me
 	</button>
 
-	<p id="api-response">{apiResponse.message}</p>
+	<p id="api-response">{apiResponse}</p>
 </div>
