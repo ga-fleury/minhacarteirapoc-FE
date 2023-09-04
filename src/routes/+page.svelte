@@ -9,7 +9,7 @@
 				'Content-type': 'application/json'
 			}
 		});
-		apiResponse = await response.text();
+		apiResponse = await response.json();
 		console.log(apiResponse);
 
 		if (response.ok) {
