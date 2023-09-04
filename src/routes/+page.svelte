@@ -23,9 +23,9 @@
 	}
 </script>
 
-<div class="flex flex-col justify-center items-center h-screen">
+<div class="flex flex-col justify-center items-center h-screen gap-y-[50px]">
 	<h1 class="text-3xl font-bold underline">Clique para fazer um request</h1>
-	<button class="text-2xl bg-svelte-prime-900 py-2 px-6 rounded shadow text-black" on:click={handleClick}>
+	<button class="text-2xl py-2 px-6 rounded shadow text-white bg-svelte-prime" on:click={handleClick}>
 		Beth?
 	</button>
 	{#await apiResponse}
