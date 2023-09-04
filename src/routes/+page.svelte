@@ -27,8 +27,8 @@
 	</button>
 	{#await apiResponse}
 		<p>...waiting</p>
-	{:then message}
-		<p>{message}</p>
+	{:then body}
+		<p>{body.message}</p>
 	{:catch error}
 		<p style="color: red">{error.message}</p>
 	{/await}
