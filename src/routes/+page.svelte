@@ -24,9 +24,9 @@
 </script>
 
 <div class="flex flex-col justify-center items-center h-screen">
-	<h1 class="text-3xl font-bold underline">Click button to make API request</h1>
+	<h1 class="text-3xl font-bold underline">Clique para fazer um request</h1>
 	<button class="text-2xl bg-svelte-prime-900 py-2 px-6 rounded shadow text-black" on:click={handleClick}>
-		Click Me
+		Beth?
 	</button>
 	{#await apiResponse}
 		<p>...waiting</p>
