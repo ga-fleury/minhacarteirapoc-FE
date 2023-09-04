@@ -1,6 +1,5 @@
 <script>
-	/** @type {number} */
-	let apiResponse = roll();
+	let apiResponse;
 
 	async function roll() {
 		const response = await fetch('https://q08tmqg247.execute-api.sa-east-1.amazonaws.com/dev/', {
