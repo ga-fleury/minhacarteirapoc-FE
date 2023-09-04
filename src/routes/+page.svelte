@@ -20,5 +20,5 @@
 		Click Me
 	</button>
 
-	<p id="api-response">{apiResponse}</p>
+	<p id="api-response">{apiResponse.message}</p>
 </div>
